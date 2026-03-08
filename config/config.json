@@ -1,0 +1,39 @@
+{
+  "modes": {
+    "morning": { "start": "06:00", "end": "12:00" },
+    "afternoon": { "start": "12:00", "end": "16:00" },
+    "evening": { "start": "16:00", "end": "21:00" },
+    "night": { "start": "21:00", "end": "06:00" }
+  },
+  "schedules": {
+    "newsIntervalMinutes": 15,
+    "weatherIntervalMinutes": 30,
+    "calendarIntervalMinutes": 30,
+    "morningBriefingTime": "06:00",
+    "eveningBriefingTime": "16:00"
+  },
+  "news": {
+    "feeds": [
+      { "name": "প্রথম আলো", "url": "https://www.prothomalo.com/rss" },
+      { "name": "BBC বাংলা", "url": "https://feeds.bbci.co.uk/bengali/rss.xml" },
+      { "name": "কালের কণ্ঠ", "url": "https://www.kalerkantho.com/rss.xml" },
+      { "name": "যুগান্তর", "url": "https://www.jugantor.com/rss.xml" }
+    ],
+    "tickerIntervalSeconds": 10
+  },
+  "weather": {
+    "units": "celsius",
+    "defaultLocation": {
+      "lat": 23.8103,
+      "lon": 90.4125,
+      "city": "ঢাকা"
+    }
+  },
+  "calendar": {
+    "maxEvents": 5
+  },
+  "ui": {
+    "splashText": "স্মার্ট মিরর",
+    "disconnectIndicatorDelayMs": 10000
+  }
+}
